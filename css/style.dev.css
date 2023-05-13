@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.pixelated {
+  font-family: 'VT323', monospace;
+ }
+
+ * {
+  outline-style: solid;
+  outline-color: green;
+}
