@@ -5,4 +5,7 @@
   "dependencies": {
     "netlify-cli": "^15.0.2"
   }
+  "script": {
+    "build":"npx tailwindcss css/style.dev.css -o style.public.css"
+  }
 }
