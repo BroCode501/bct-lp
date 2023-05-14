@@ -7,8 +7,25 @@
 .pixelated {
   font-family: 'VT323', monospace;
  }
+.telegram {
+  background-color: #005E8F;
+}
 
- * {
+.telegram:hover {
+  filter: brightness(70%);
+}
+
+.whatsapp {
+  background-color: #006600;
+}
+
+.whatsapp:hover {
+  filter: brightness(70%);
+}
+/* To Debug CSS */
+/*
+* {
   outline-style: solid;
   outline-color: green;
 }
+*/
