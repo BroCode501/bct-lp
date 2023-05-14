@@ -8,6 +8,6 @@
   },
   "scripts": {
     "build": "postcss css/style.dev.css -o css/style.public.css",
-    "b2": "tailwindcss -i css/style.dev.css -o css/style.public.css"
+    "b2": "npx tailwindcss -i css/style.dev.css -o css/style.public.css"
   }
 }
