@@ -1,0 +1,10 @@
+User-Agent: *
+Allow: /
+
+User-Agent: *
+Disallow: /css
+
+User-Agent: *
+Disallow: /img
+
+Sitemap: https://brocode-tech.netlify.app/sitemap.xml
