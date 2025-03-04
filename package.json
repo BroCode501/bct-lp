@@ -6,6 +6,7 @@
     "netlify-cli": "^15.0.2"
   },
   "scripts": {
-    "build":"npx tailwindcss -i css/style.dev.css -o style.public.css"
+    "build":"npx @tailwindcss/cli -i css/style.dev.css -o style.public.css",
+    "buildWatch":"npx @tailwindcss/cli -i css/style.dev.css -o style.public.css --watch"
   }
 }
